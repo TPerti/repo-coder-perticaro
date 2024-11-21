@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(150, 230, 203);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: rgb(150, 230, 203);  
     box-sizing: border-box;
     background: linear-gradient(to top, #c2dac2, #8bd15d);
     height: 100vh;
@@ -13,19 +12,12 @@ body {
     font-weight: 700; 
     color: #245f36; 
     text-align: center; 
-}   
+} 
 
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; 
-    list-style: none;    
-}
-
-a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.menu_contacto { 
+    font-size: 36px; 
+    font-weight: 700; 
+    color: #245f36; 
 }
 
 a:hover {
@@ -41,7 +33,7 @@ a:hover {
     padding-left: 30%;
     padding-right: 30%;
     gap: 10%;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
 }
 
@@ -54,12 +46,15 @@ a:hover {
 
 .descripcion_bio {
     text-align: justify; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .titulo { 
     font-family: Arial; 
-    font-size: 30px; 
-    COLOR: #299741; 
+    font-size: 45px; 
+    color: #299741; 
     text-shadow: 0px 0px 9px #508AD3;
     text-align: center;  
 }
@@ -73,7 +68,7 @@ a:hover {
 
 .imagenes { 
     display: flex;
-    justify-content:space-evenly; 
+    justify-content:space-around; 
 }
 
 img {
